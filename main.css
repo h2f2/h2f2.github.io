@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Franklin|Montez|Rokkitt&display=swap');
+
+body {
+    margin: 0;
+    background-color: #E7EDEB;
+    text-align: center;
+    font-family: 'Rokkitt', serif;
+    font-size: 1.5rem;
+    color: #222831;
+}
+
+hr {
+    border-style: dotted none none none;
+    border-top-width: 6px;
+    border-color: #c2dbc1;
+    width: 5%;
+}
+
+h1 {
+    margin: 0;
+    font-size: 6rem;
+    font-family: 'Montez', cursive;
+    color: #307672;
+    height: auto;
+}
+
+h2 {
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 2.1875rem;
+    font-weight: normal;
+    color: #307672;
+}
+
+h3 {
+    font-family: 'Libre Franklin', sans-serif;
+    color: #588c73;
+    font-weight: normal;
+    font-size: 1.4rem;
+}
+
+p {
+    line-height: 1.4;
+    font-family: 'Rokkitt', serif;
+}
+
+a {
+    color: #307672;
+    text-decoration: none;
+}
+
+.top-container {
+    background: url(abstractbig.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding-bottom: 34%;
+}
+
+.heading {
+    padding: 7% 0 0 42%;   
+}
+
+.heading-p {
+    margin: 0;
+    font-size: 2.2rem;
+    color: #307672;
+}
+
+@media (max-width:830px) and (min-width:560px) {
+    h1 {
+        font-size: 150%;
+    }
+    .heading-p {
+        font-size: 140%;
+    }
+}
+
+@media (max-width:560px) {
+    h1 {
+        font-size: 90%;
+    }
+    .heading-p {
+        font-size: 80%;
+    }
+}
+
+.profile {
+    margin: 80px auto 100px;
+    width: 55%;
+}
+
+.profile-img {
+    border-radius: 100%;
+    width: 24%;
+}
+
+.theatre {
+    color: #307672;
+    text-decoration: none;
+}
+
+.theatre:hover {
+    color: #c2dbc1;
+}
+
+.skills {
+    margin-top: 100px;
+}
+
+.skill-row {
+    width: 55%;
+    margin: 80px auto 90px;
+    text-align: left;
+}
+
+.newcomputer {
+    width: 32%;
+    height: auto;
+    float: left;
+}
+
+.drama {
+    padding-top: 10px;
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+.contact-me {
+    margin: 100px auto;
+}
+
+.get-in-touch-text {
+    width: 55%;
+    margin: auto;
+    padding-bottom: 40px;
+}
+
+.bottom-container {
+    font-size: 1rem;
+    background-color: #588c73;
+    padding: 20px 0 5px;
+}
+
+.footer-link {
+    margin: 40px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.footer-link:hover {
+    color: #c2dbc1;
+}
+
+.copyright {
+    margin: auto;
+    color: #c2dbc1;
+    padding-top: 15px;
+    font-size: 1rem;
+}
+
+.btn {
+    background: #588c73;
+    background-image: -webkit-linear-gradient(top, #588c73, #307672);
+    background-image: -moz-linear-gradient(top, #588c73, #307672);
+    background-image: -ms-linear-gradient(top, #588c73, #307672);
+    background-image: -o-linear-gradient(top, #588c73, #307672);
+    background-image: linear-gradient(to bottom, #588c73, #307672);
+    -webkit-border-radius: 5;
+    -moz-border-radius: 5;
+    border-radius: 5px;
+    font-family: 'Rokkitt', serif;
+    color: #c2dbc1;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #588c73;
+    text-decoration: none;
+}
+
