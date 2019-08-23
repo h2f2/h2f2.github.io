@@ -9,6 +9,27 @@ body {
     color: #222831;
 }
 
+.navbar {
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+ul {
+    list-style-type: none;
+    /* background-color: #c8dad3; */
+    margin: 0;
+    text-align: right;
+    
+}
+li {
+    display: inline-block;
+    padding: 10px 0;
+    margin-right: 30px;
+    color: #307672;
+    font-size: 1.5rem;
+}
+
 hr {
     border-style: dotted none none none;
     border-top-width: 6px;
@@ -48,7 +69,7 @@ a {
     text-decoration: none;
 }
 
-.top-container {
+#top-container {
     background: url(abstractbig.png);
     background-size: 100%;
     background-repeat: no-repeat;
@@ -72,6 +93,9 @@ a {
     .heading-p {
         font-size: 140%;
     }
+    li {
+        font-size: 60%;
+    }
 }
 
 @media (max-width:560px) {
@@ -81,10 +105,14 @@ a {
     .heading-p {
         font-size: 80%;
     }
+    li {
+        font-size: 50%;
+    }
 }
 
-.profile {
-    margin: 80px auto 100px;
+#profile {
+    margin: 20px auto 100px;
+    padding-top: 80px;
     width: 55%;
 }
 
@@ -102,8 +130,8 @@ a {
     color: #c2dbc1;
 }
 
-.skills {
-    margin-top: 100px;
+#skills {
+    padding-top: 50px;
 }
 
 .skill-row {
@@ -123,6 +151,14 @@ a {
     width: 25%;
     float: right;
     margin-left: 30px;
+}
+
+#projects {
+    padding-top: 50px;
+}
+
+.project-text {
+    text-align: center;
 }
 
 .contact-me {
