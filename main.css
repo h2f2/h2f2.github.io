@@ -94,7 +94,8 @@ a {
         font-size: 140%;
     }
     li {
-        font-size: 60%;
+        font-size: 50%;
+        margin-right: 10px;
     }
 }
 
@@ -106,7 +107,8 @@ a {
         font-size: 80%;
     }
     li {
-        font-size: 50%;
+        font-size: 40%;
+        margin-right: 10px;
     }
 }
 
