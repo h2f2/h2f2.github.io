@@ -172,31 +172,42 @@ a {
 }
 
 .projectDivs {
-    width: 28%;
+    width: 20%;
 }
 
-.dice:hover {
+@media (max-width:560px) {
+    .project-section {
+        display: block;
+    }
+
+    .projectDivs {
+        display: inline-block;
+        width: 50%;
+    }
+}
+
+.dice:hover,
+.tindog:hover,
+.weather:hover {
     color: #c2dbc1;
 }
 
-.tindog:hover {
-    color: #c2dbc1;
+.diceImg:hover,
+.dogImg:hover,
+.weatherImg:hover {
+    opacity: 0.5;
 }
 
 .diceImg {
-    width: 45%;
-}
-
-.diceImg:hover {
-    opacity: 0.5;
+    width: 60%;
 }
 
 .dogImg {
-    width: 28%;
+    width: 40%;
 }
 
-.dogImg:hover {
-    opacity: 0.5;
+.weatherImg {
+    width: 80%;
 }
 
 .contact-me {
